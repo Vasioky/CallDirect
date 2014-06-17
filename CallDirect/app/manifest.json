@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Call Direct",
+  "description": "This extension send a call notification to your android phone",
+  "version": "1.0",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "img/icon.png",
+    "default_popup": "popup.html"
+  }
+}
