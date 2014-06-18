@@ -41,6 +41,7 @@
     <Content Include="app\background.html" />
     <Content Include="app\background.js" />
     <Content Include="app\img\icon.png" />
+    <Content Include="app\MobileServices.Web-1.1.3.min.js" />
     <Content Include="app\options.html" />
     <Content Include="app\options.js" />
     <Content Include="app\popup.html" />
