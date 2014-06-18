@@ -1,15 +1,18 @@
-﻿var phonenumber = 'phonenumber';
-function saveNumber() {
-    var el = document.getElementById(phonenumber);
-    localStorage[phonenumber] = el.value;
-    //TODO:add success message
-}
+﻿(function () {
+    var phonenumber = 'phonenumber';
 
-function restore_options() {
-    var el = document.getElementById('btnSave');
+    function saveNumber() {
+        var el = document.getElementById(phonenumber);
+        localStorage[phonenumber] = el.value;
+        //TODO:add success message
+    }
 
-    el.addEventListener('click', saveNumber);
+    function restore_options() {
+        var el = document.getElementById('btnSave');
 
-    document.getElementById(phonenumber).value = localStorage[phonenumber];
-}
-document.addEventListener('DOMContentLoaded', restore_options);
+        el.addEventListener('click', saveNumber);
+
+        document.getElementById(phonenumber).value = localStorage[phonenumber];
+    }
+    document.addEventListener('DOMContentLoaded', restore_options);
+})();

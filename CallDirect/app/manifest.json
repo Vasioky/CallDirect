@@ -14,11 +14,9 @@
     "activeTab",
     "http://*/",
     "https://*/"
-  ]
-  //todo: add possibility to call from browser action
-  /*,
+  ],
   "browser_action": {
     "default_icon": "img/icon.png",
     "default_popup": "popup.html"
-  }*/
+  }
 }
